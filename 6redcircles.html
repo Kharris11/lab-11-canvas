@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body onload="draw()">
+<canvas id="sketch" width="300" height"300">
+</canvas>
+
+<script>
+// script
+function draw(){
+
+
+  var sketch = document.getElementById('sketch')
+   var context = sketch.getContext("2d");
+
+context.fillStyle = '#ffcccc';
+context.beginPath();
+context.arc(130, 55, 50, 0, 2 * Math.PI, true)
+context.closePath();
+context.fill();
+
+context.fillStyle = '#ff8080';
+context.beginPath();
+context.arc(130, 55, 45, 0, 2 * Math.PI, true)
+context.closePath();
+context.fill();
+
+context.fillStyle = '#ff0000';
+context.beginPath();
+context.arc(130, 55, 40, 0, 2 * Math.PI, true)
+context.closePath();
+context.fill();
+
+context.fillStyle = '#cc0000';
+context.beginPath();
+context.arc(130, 55, 35, 0, 2 * Math.PI, true)
+context.closePath();
+context.fill();
+
+context.fillStyle = '#990000';
+context.beginPath();
+context.arc(130, 55, 30, 0, 2 * Math.PI, true)
+context.closePath();
+context.fill();
+
+context.fillStyle = '#660000';
+context.beginPath();
+context.arc(130, 55, 25, 0, 2 * Math.PI, true)
+context.closePath();
+context.fill();
+
+
+
+
+
+}
+
+  </script>
+  </body>
+</html>
